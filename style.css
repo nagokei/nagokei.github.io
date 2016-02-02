@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+h1,h2,h3 {
+  font-family: Raleway, sans-serif;
+}
+h2 {
+  margin: 0 auto 30px auto;
+  padding-bottom: 8px;
+  width: 120px;
+  border-bottom: 2px solid #000;
+}
+p {
+  line-height: 30px;
+}
+header {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 80px;
+  padding: 150px 0 60px 0;
+  background-color: #ddd;
+}
+header img {
+  max-width: 150px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+header h1 {
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+.works {
+  margin-bottom: 80px;
+}
+.panel-heading {
+  height: 200px;
+  background-image: url(http://placehold.jp/200x150.png);
+  background-size: cover;
+}
+.panel-body {
+  padding-bottom: 25px;
+}
+.github-btn {
+  width: 300px;
+  margin-top: 40px;
+  padding: 14px;
+}
+.about {
+  background-color: #092738;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about i {
+  color: #fff;
+  font-size: 60px;
+}
+.about h2, .about h3, .about p {
+  color: #fff;
+  border-color: #fff;
+}
+.about h2 {
+  margin-bottom: 60px;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #eee;
+}
